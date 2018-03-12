@@ -1,0 +1,86 @@
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px;
+	/*border-bottom: 1px solid #999;
+	border-left: 1px solid #999;*/
+	width: 100%;
+}
+ul.tabs li {
+	  border-right: 1px solid #fff;
+	float: left;
+	margin: 0;
+	padding: 15px;
+	height: 60px;
+	line-height: 31px;
+	/*border: 1px solid #999;*/
+	border-left: none;
+	margin-bottom: -1px;
+	background: #c7c8ca;
+	overflow: hidden;
+	position: relative;
+    width: 175px;
+  text-align: center;
+}
+ul.tabs li:last-child{ border-right: 0px !important;}
+ul.tabs li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	/*border: 1px solid #fff;*/
+	outline: none;
+    text-transform: uppercase;
+}
+ul.tabs li a:hover {
+	/*background: #ccc;*/
+}	
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+.tab_container {
+	margin-top: 28px;
+	border-top: none;
+	clear: both;
+	float: left; 
+	width: 100%;
+	background: #fff;
+	/*-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;*/
+}
+.tab_content {
+	  padding: 50px 40px 60px 40px;
+  font-size: 14px;
+  line-height: 28px;
+}
+.tab_content h2 {
+	font-weight: normal;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ddd;
+	font-size: 1.8em;
+}
+.tab_content h3 a{
+	color: #254588;
+}
+.tab_content img {
+	float: left;
+	margin: 0 20px 20px 0;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+html ul.tabs li.active a, html ul.tabs li.active a:hover{ color: #f1801f;}
+.tab_container .tab_content p{margin-bottom: 40px; }
+.tab_container .tab_content p:last-child{ margin-bottom: 0px !important;}
+.spacifications-disc div:last-child div{ margin-bottom: 60px;}
+.tab_content .greya{ background: #bbbbbb; width: 240px; padding: 8px 10px 8px 18px; color: #fff; font-family:'Segoe UI'; font-size: 15px; margin:0 10px 5px 0;}
+.tab_content .greyb{ background: #a6a6a6; width: 640px; padding: 8px 100px 8px 18px; color: #fff; font-family:'Segoe UI'; font-size: 15px; margin:0 10px 5px 0;}
+{ margin-bottom: 60px;}

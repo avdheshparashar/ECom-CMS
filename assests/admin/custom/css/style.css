@@ -1,0 +1,81 @@
+.pagination ul {
+    -webkit-box-shadow: 0 1px 2px rgba(224, 196, 125, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(224, 196, 125, 0.05);
+    box-shadow: 0 1px 2px rgba(224, 196, 125, 0.5);
+}
+.pagination ul > li > a, .pagination ul > li > span { border-color: #E0C47D; }
+.pagination ul > li > a:hover { background: #FFFCF4; }
+.pagination a { color: #763D00; }
+.pagination ul > .active > a:hover,
+.pagination ul > .active > a, .pagination ul > .active > span {
+    color: #763D00;
+    background-color: #FFE097;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFE097), to(#F2D389) );
+    background-image: -webkit-linear-gradient(top, #FFE097, #F2D389);
+    background-image: -moz-linear-gradient(top, #FFE097, #F2D389);
+    background-image: -ms-linear-gradient(top, #FFE097, #F2D389);
+    background-image: -o-linear-gradient(top, #FFE097, #F2D389);
+    background-image: linear-gradient(top, #FFE097, #F2D389);
+}
+.pagination ul > .disabled > span, .pagination ul > .disabled > a, .pagination ul > .disabled > a:hover { color: #E0C47D; }
+
+#example_paginate{
+    -webkit-box-shadow: 0 1px 2px rgba(224, 196, 125, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(224, 196, 125, 0.05);
+    box-shadow: 0 1px 2px rgba(224, 196, 125, 0.5);
+}
+
+#example_paginate a{
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #E0C47D;
+    border-left-width: 0;
+    color: #763D00;
+    margin-left: 0px;
+}
+
+#example_paginate a:first-child{
+    border-left-width: 1px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+}
+
+#example_paginate a:last-child{
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+}
+
+#example_paginate a:hover,
+#example_paginate a:active{
+    color: #763D00 !important;
+    background: #FFFCF4;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+#example_paginate a.paginate_active{
+    color: #763D00 !important;
+    background: #FFFCF4;
+    background-color: #FFE097;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+    border-radius: 0px;
+}
+
+#example_length select{
+    width: 100px;
+}
+
+.mainContent{
+    min-height: 700px !important;
+}
